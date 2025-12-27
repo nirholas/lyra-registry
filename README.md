@@ -2,7 +2,9 @@
 
 > The NPM for Crypto AI Tools - Central registry for the Lyra ecosystem
 
-Lyra Registry is a standalone API service that catalogs, scores, and serves metadata for all tools in the Lyra ecosystem. It enables discovery, evaluation, and integration of 280+ crypto & DeFi MCP tools.
+Lyra Registry is a standalone API service that catalogs, scores, and serves metadata for all tools in the Lyra ecosystem. It enables discovery, evaluation, and integration of 800+ crypto & DeFi MCP tools.
+
+Between builds I am working on cleaning up the main Lyra repo with over 800+ blockchain and cryptocurrency tools. I hope to release it soon.
 
 ## ✨ Features
 
