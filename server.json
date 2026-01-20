@@ -1,1 +1,9 @@
-{"$schema":"https://registry.modelcontextprotocol.io/schema/server.json","name":"crypto-tools-registry","title":"Crypto Tools Registry","description":"Registry API for 800+ crypto blockchain DeFi NFT trading tools - discovery metadata","repository":"https://github.com/nirholas/lyra-registry","keywords":["registry","crypto","blockchain","defi"],"packages":[{"registry_name":"source","identifier":"https://github.com/nirholas/lyra-registry"}]}
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.nirholas/crypto-tools-registry",
+  "title": "Crypto Tools Registry",
+  "description": "Registry API for 800+ crypto blockchain DeFi NFT trading tools discovery",
+  "keywords": ["registry", "crypto", "blockchain", "defi", "nft", "tools", "api"],
+  "repository": {"url": "https://github.com/nirholas/lyra-registry", "source": "github"},
+  "packages": [{"registryType": "source", "identifier": "https://github.com/nirholas/lyra-registry"}]
+}
