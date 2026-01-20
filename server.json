@@ -1,6 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.nirholas/crypto-tools-registry",
+  "version": "1.0.0",
   "title": "Crypto Tools Registry",
   "description": "Registry API for 800+ crypto blockchain DeFi NFT trading tools discovery",
   "keywords": ["registry", "crypto", "blockchain", "defi", "nft", "tools", "api"],
