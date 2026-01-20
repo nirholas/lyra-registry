@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.nirholas/crypto-tools-registry",
+  "title": "Crypto Tools Registry",
+  "description": "Registry API for 800+ crypto blockchain DeFi NFT trading tools - discovery scoring metadata integration",
+  "version": "1.0.0",
+  "keywords": [
+    "registry",
+    "catalog",
+    "crypto",
+    "blockchain",
+    "defi",
+    "nft",
+    "trading",
+    "tools",
+    "discovery",
+    "metadata",
+    "scoring",
+    "api",
+    "integration",
+    "mcp",
+    "claude",
+    "ai",
+    "llm",
+    "web3"
+  ],
+  "repository": {
+    "url": "https://github.com/nirholas/lyra-registry",
+    "source": "github"
+  },
+  "license": "MIT",
+  "packages": [
+    {
+      "registryType": "source",
+      "url": "https://github.com/nirholas/lyra-registry",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
