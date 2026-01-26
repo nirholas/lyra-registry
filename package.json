@@ -2,7 +2,7 @@
   "name": "lyra-registry",
   "version": "1.0.0",
   "description": "Central registry hub for Lyra ecosystem tools, agents, and plugins - the NPM for Crypto AI Tools",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
