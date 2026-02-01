@@ -8,7 +8,7 @@ Between builds I am working on cleaning up the main Lyra repo with over 800+ blo
 
 ## ✨ Features
 
-- **📊 Trust Scoring** - Every tool is scored using the SperaxOS algorithm
+- **📊 Trust Scoring** - Every tool is scored using the SperaxOS algorithm 
 - **🔍 Search & Filter** - Full-text search with category, chain, and protocol filters
 - **📈 Trending** - Track tool popularity and usage
 - **🔌 MCP Integration** - Auto-seed from running Lyra MCP servers
