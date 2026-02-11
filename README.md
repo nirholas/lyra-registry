@@ -1,4 +1,4 @@
-# 🌙 Lyra Registry
+# 🌙 Lyra Registry 
 
 > The NPM for Crypto AI Tools - Central registry for the Lyra ecosystem
  
