@@ -14,6 +14,8 @@ Between builds I am working on cleaning up the main Lyra repo with over 800+ blo
 - **🔌 MCP Integration** - Auto-seed from running Lyra MCP servers
 - **🚀 Vercel Ready** - Deploy to Vercel/Railway in minutes
 
+  **mcp-registry-demo.vercel.app**
+
 ## 🏗️ Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
