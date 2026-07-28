@@ -3,6 +3,10 @@
   "name": "lyra-registry",
   "version": "1.0.0",
   "description": "Central registry hub for Lyra ecosystem tools, agents, and plugins - the NPM for Crypto AI Tools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirholas/lyra-registry.git"
+  },
   "private": false,
   "scripts": {
     "dev": "next dev",
