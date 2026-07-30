@@ -1,5 +1,12 @@
 import Link from 'next/link';
 
+/**
+ * Base URL used in the copy/paste curl examples below.
+ * Set NEXT_PUBLIC_REGISTRY_URL to your deployment's origin; falls back to the
+ * local dev server so the examples always point at a reachable host.
+ */
+const API_BASE = process.env.NEXT_PUBLIC_REGISTRY_URL || 'http://localhost:3000';
+
 export default function Home() {
   return (
     <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '2rem' }}>
@@ -79,16 +86,16 @@ export default function Home() {
         <h2 style={{ fontSize: '1.75rem', marginBottom: '1.5rem' }}>🚀 Quick Start</h2>
         <pre>
           <code>{`# Search for DeFi tools
-curl "https://lyra-registry.vercel.app/api/search?q=defi&category=defi"
+curl "${API_BASE}/api/search?q=defi&category=defi"
 
 # Get trending tools this week
-curl "https://lyra-registry.vercel.app/api/trending?period=week&limit=10"
+curl "${API_BASE}/api/trending?period=week&limit=10"
 
 # Get tool by ID
-curl "https://lyra-registry.vercel.app/api/tools/[uuid]"
+curl "${API_BASE}/api/tools/[uuid]"
 
 # Register a new tool
-curl -X POST "https://lyra-registry.vercel.app/api/tools" \\
+curl -X POST "${API_BASE}/api/tools" \\
   -H "Content-Type: application/json" \\
   -d '{"name": "my-tool", "description": "...", "category": "defi", "inputSchema": {}}'`}</code>
         </pre>
