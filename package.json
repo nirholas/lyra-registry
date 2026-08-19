@@ -44,5 +44,6 @@
   "bugs": {
     "url": "https://github.com/nirholas/lyra-registry/issues"
   },
-  "homepage": "https://github.com/nirholas/lyra-registry#readme"
+  "homepage": "https://github.com/nirholas/lyra-registry#readme",
+  "mcpName": "io.github.nirholas/lyra-registry"
 }
