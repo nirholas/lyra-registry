@@ -345,7 +345,7 @@ curl -X POST https://modelcontextprotocol.name/mcp/lyra-registry \
 
 ## Documentation
 
-Full documentation site: **https://nirholas.github.io/lyra-registry/**
+Full documentation site: **https://lyra-registry.modelcontextprotocol.name/**
 
 - [Getting started](docs/getting-started.md) covers install and first run.
 - [Examples](docs/examples.md) has copy-paste snippets.
