@@ -45,5 +45,14 @@
     "url": "https://github.com/nirholas/lyra-registry/issues"
   },
   "homepage": "https://github.com/nirholas/lyra-registry#readme",
-  "mcpName": "io.github.nirholas/lyra-registry"
+  "mcpName": "io.github.nirholas/lyra-registry",
+  "overrides": {
+    "@esbuild-kit/core-utils": {
+      "esbuild": "0.25.12"
+    },
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "11.0.3"
+    },
+    "@isaacs/nonrecursive-glob-match": "1.0.3"
+  }
 }
