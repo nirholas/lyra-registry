@@ -1,0 +1,21 @@
+{
+  "name": "lyra-registry",
+  "owner": {
+    "name": "nirholas"
+  },
+  "description": "Run and query the Lyra Registry REST API that catalogs and scores crypto and DeFi MCP tools.",
+  "plugins": [
+    {
+      "name": "lyra-registry",
+      "source": "./plugins/lyra-registry",
+      "description": "Run and query the Lyra Registry REST API that catalogs and scores crypto and DeFi MCP tools.",
+      "category": "data",
+      "tags": [
+        "registry",
+        "mcp-tools",
+        "crypto",
+        "api"
+      ]
+    }
+  ]
+}

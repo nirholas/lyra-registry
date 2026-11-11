@@ -1,0 +1,16 @@
+{
+  "name": "lyra-registry",
+  "version": "1.0.5",
+  "description": "Run and query the Lyra Registry REST API that catalogs and scores crypto and DeFi MCP tools.",
+  "author": {
+    "name": "nirholas"
+  },
+  "repository": "https://github.com/nirholas/lyra-registry",
+  "homepage": "https://lyra-registry.modelcontextprotocol.name",
+  "keywords": [
+    "registry",
+    "mcp-tools",
+    "crypto",
+    "api"
+  ]
+}
